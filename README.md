@@ -3,26 +3,27 @@ The CryptoParty Handbook
 
 https://cryptoparty.org/wiki/CryptoPartyHandbook
 
-**Please fork this repo. Add and edit content. Send back pull requests.**
+**Merci de forker ce repo. Ajoutez et éditez son contenu. Envoyez vos pull requests.**
 
-Comments and questions about handbook content are more than welcome, please submit them using new issues and pull requests.
+Les commentaires et les questions à propos du contenu du Handbook sont plus que bienvenues, merci de les rajouter en utilisant les *issues* et les *pull requests*.
 
-Peer Review Process
--------------------
+Processus de validation par pair
+--------------------------------
 
-A peer review process for content already existing in the handbook, as well as for future additions, is still in the making. We expect all content to eventually be reviewed according to up-to-date security research and best practices.
+Le processus de validation par pair sur le contenu est déjà en place sur ce handbook, ainsi que dans les prochains ajouts, est toujours en cours de reflexion. Nous aimerions que tout le contenu soit éventuellement valider en accord avec les mise à jours sur les recherches en sécurité ainsi que leur *best-practices*.
 
-Publishing
-----------
 
-The CryptoParty Handbook is meant to be - and look - professional, thus it should be packaged and published in a proper way using a proper typesettings engine. If you have any knowledge or experience with book publishing and typesetting, please weight in.
+Publication
+-----------
+
+Le CryptoParty Handbook doit être - et paraître - professionel, donc il devrait être mise en page et publié de façon à être utilisé par un moteur de rendu typographique. Si vous avez des connaissances ou expérience avec la publication de livre et les polices de caractères, merci de faire connaître votre avis.
 
 License
 -------
 
-The CryptoParty Handbook content is licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)](https://creativecommons.org/licenses/by-sa/3.0/).
+Le contenu du CryptoParty Handbook est sous license [Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)](https://creativecommons.org/licenses/by-sa/3.0/).
 
-All chapters © the contributors unless otherwise noted.
+Tous les chapitres © les contributeurs à moins que cela soit indiqué différement.
 
 <pre>
 -----BEGIN RSA PRIVATE KEY-----
