@@ -1,7 +1,7 @@
 A CryptoParty Manifesto
 =======================
 
-> **« L'homme n'est pas lui-même quand il parle en son nom propre. Donnez-lui un masque et il vous dira la vérité. - Oscar Wilde**
+> **« L'homme n'est pas lui-même quand il parle en son nom propre. Donnez-lui un masque et il vous dira la vérité. » - Oscar Wilde**
 
 En 1996, John Perry Barlow, cofondateur de l'« Electronic Frontier Foundation », écrivit Une déclaration de l'indépendance du cyberespace. Celle-ci contient le passage suivant :
 
