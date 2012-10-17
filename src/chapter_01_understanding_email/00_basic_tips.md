@@ -1,7 +1,7 @@
-Astuces basiques
+Astuces de base
 ==========
 
-Tout comme avec d'autres formes de communication sur le web, vous devriez toujours prendre quelques précautions afin de vous assurer les meilleures chances de protéger votre vie privée
+Tout comme avec d'autres formes de communication sur le web, vous devriez toujours prendre quelques précautions afin de vous assurer les meilleures chances de protéger votre vie privée.
 
 En bref : 
 ---------
@@ -28,7 +28,7 @@ Un logiciel de gestion de mot de passe, comme KeePass, entrepose vos divers mots
 
 Au final, vous devriez utiliser des mots de passe différents pour vos divers comptes. De cette façon, si l'un d'eux est piraté, vos autres comptes resteront en sécurité. N'utilisez jamais le même mot de passe au travail et pour vos comptes e-mail personnels. Voir la section **Mots de passe** pour en savoir plus sur les façons de vous sécuriser.
 
-Lire des e-mails dans des lieux publics
+Lecture des e-mails dans des lieux publics
 ------------------------------
 
 Un des grands conforts des réseaux sans-fil et du "Cloud computing" est la possibilité de travailler n'importe où. Vous pouvez régulièrement vouloir consulter vos e-mails dans des cyber-cafés ou des lieux-publics. Espions, criminels et individus douteux sont connus pour visiter régulièrement ces endroits afin de profiter de riches opportunités offertes pour le vol d'identité, l'espionnage d'e-mails ou le piratage de comptes bancaires.
@@ -38,33 +38,37 @@ Nous nous trouvons souvent au centre d'un risque sous-estimé de quelqu'un écou
 Voici une simple règle qui s'applique tout le temps : si le cyber-café offre une connexion filaire, utilisez-la ! Enfin, tout comme devant un distributeur de billets, assurez-vous que personne ne regarde par-dessus votre épaule lorsque vous tapez votre mot de passe.
 
 
-Cache Cunning
+Le Perfide Cache
 -------------
 
-Here again convenience quickly paves the road to bad places. Due to the general annoyance of having to type in your password over and over again, you ask the browser or local mail client to store it for you. This is not bad in itself, but when a laptop or phone gets stolen, it enables the thief to access the owner's email account(s). The best practice is to clear this cache every time you close your browser. All popular browsers have an option to clear this cache on exit. 
+Là encore, l'enfer est pavé de bonnes intentions. A cause de l'agacement permanent de devoir taper votre mot de passe encore et encore, vous demandez à votre navigateur ou à votre client mail de le stocker pour vous. Ce n'est pas mauvais en soi, mais lorsqu'un ordinateur ou un téléphone est volé, ceci permet au voleur d'accéder aux comptes e-mail du propriétaire. La bonne pratique à tenir est de vider ce cache chaque fois que vous fermez votre navigateur. Tous les navigateurs populaires ont une option de vidage de cache à la fermeture.
 
-One basic precaution can justify you holding onto your convenient cache: disk encryption. If your laptop is stolen and the thief reboots the machine, they'll be met with an encrypted disk. It is also wise to have a screen lock installed on your computer or phone. If the machine is taken from you while still running your existing browsing session, it cannot be accessed.
-Securing your communication
+Une précaution de base peut vous permettre d'utiliser votre cache : le chiffrement de disque. Si votre ordinateur portable est volé et que le voleur redémarre la machine, il se trouvera face à un disque chiffré. Il est aussi sage d'avoir un écran de verrouillage installé sur votre portable ou votre téléphone. Si l'on vous prend votre appareil pendant une session de navigation, celle-ci sera inaccessible.
 
-Whenever you write and send email in a browser or use an email program (Outlook Express, Mozilla Thunderbird, Mail.app or Mutt), you should always ensure to use encryption for the entire session. This is easily done due to the popular use of *TLS/SSL (Secure Socket Layer)* connections by email servers (See glossary **TLS/SSL**).
+Sécurisation de vos communications
+----------------------------
 
-If using a browser to check your email, check to see if the mail server supports SSL sessions by looking for https:// at the beginning of the URL. If not, be sure to turn it on in your email account settings, such as Gmail or Hotmail.This ensures that not just the login part of your email session is encrypted but also the writing and sending of emails.
+Chaque fois que vous écrivez et envoyez un e-mail via un navigateur ou un client de messagerie (Outlook Express, Mozilla Thunderbird, Mail.app ou Mutt), vous devriez toujours être sûr d'utiliser le chiffrement pour la session complète. Ceci est réalisé simplement grâce à l'usage répandu de connexions *TLS/SSL (Secure Socket Layer)* par les serveurs de messagerie (Voir glossaire **TLS/SSL**).
 
-At the time of writing, Google's Gmail uses TLS/SSL by default whereas Hotmail does not. If your email service does not appear to provide TLS/SSL, then it is advised to stop using it. Even if your emails are not important, you might find yourself 'locked out' of your account one day with a changed password!
+Si vous utilisez un navigateur pour consulter vos e-mails, vérifiez si le serveur utilise le chiffrement SSL en cherchant le https:// dans la barre d'adresse au début de l'URL. Dans le cas contraire, activez-le dans vos paramètres de compte e-mail, comme GMail ou Hotmail. Ceci assure que la phase de connexion à votre compte mais aussi la rédaction et l'envoi d'e-mails sont sécurisés.
 
-When using an email program to check your email, be sure that you are using TLS/SSL in the program options. For instance in Mozilla Thunderbird the option for securing your outgoing email is found in `Tools -> Account Settings -> Outgoing Server (SMTP)` and for incoming email in `Tools -> Account Settings -> Server Settings`. This ensures that the downloading and sending of email is encrypted, making it very difficult for someone on your network, or on any of the networks between you and the server, to read or log your email.
-Encrypting the email itself
+Au moment de la rédaction, GMail utilise TLS/SSL par défaut contrairement à Hotmail (il est cependant possible d'activer l'utilisation par défaut de TLS/SSL). Si votre service d'e-mails semble ne pas fournir de chiffrement TLS/SSL, il est conseillé d'arrêter de l'utiliser. Même si vos e-mails ne sont pas importants, vous pourriez un jour vous retrouver "enfermé à l'extérieur" de votre compte avec un mot de passe modifié !
 
-Even if the line itself is encrypted using a system such as SSL, the email service provider still has full access to the email because they own and have full access to the storage device where you host your email. If you want to use a web service and be sure that your provider cannot read your messages, then you'll need to use something like *GPG* (Appendix for **GnuPG**) with which you can encrypt the email. The header of the email however will still contain the IP (Internet address) that the email was sent from alongside other compromising details. Worth mentioning here is that the use of *GPG* in webmail is not as comfortable as with a locally installed mail client, such as *Thunderbird* or *Outlook Express*.
+Lors de l'utilisation d'un programme pour vérifier vos e-mails, soyez sûr d'activer TLS/SSL dans les options du programme. Par exemple dans Mozilla Thunderbird, l'option pour sécuriser l'envoi de vos e-mails se trouve dans `Outils -> Paramètres des comptes -> Serveur sortant (SMPT)` et pour la réception d'e-mails dans `Outils -> Paramètres des comptes -> Paramètres serveur`. Ceci certifie que le téléchargement et l'envoi d'e-mails est chiffré, rendant très difficile pour quelqu'un dans votre réseau, ou dans quelque réseau entre le serveur et vous, la lecture ou l'enregistrement de vos e-mails.
 
-Account Separation
-------------------
-
-Due to the convenience of services like Gmail, it is increasingly typical for people to have only one email account. This considerably centralises the potential damage done by a compromised account. More so, there is nothing to stop a disgruntled Google employee from deleting or stealing your email, let alone Google itself getting hacked. Hacks happen.
-
-A practical strategy is to keep your personal email, well, personal. If you have a work email then create a new account if your employers haven't already done it for you. The same should go for any clubs or organisations you belong to, each with a unique password. Not only does this improve security, by reducing the risk of whole identity theft, but greatly reduces the likelihood of spam dominating your daily email.
-
-A note about hosted email
+Chiffrement du contenu d'un mail
 -------------------------
 
-Those that provide you with the service to host, send, download and read email are not encumbered by the use of TLS/SSL. As hosts, they can read and log your email in plain text. They can comply with requests by local law enforcement agencies who wish to access email. They may also study your email for patterns, keywords or signs of sentiment for or against brands, ideologies or political groups. It is important to read the EULA (End-user license agreement) of your email service provider and do some background research on their affiliations and interests before choosing what kind of email content they have access to. These concerns also apply to the hosts of your messages' recipients.
+Même si la ligne elle-même est sécurisée via un système comme SSL, le fournisseur de services de messagerie a plein-accès aux e-mails car il possède et a accès libre au moyen de stockage sur lequel vous les hébergez. Si vous voulez utiliser une messagerie web et être sûr que votre fournisseur ne peut pas lire vos messages, alors vous aurez besoin d'utiliser quelque chose comme *GPG* (abrégé pour **GnuPG**) qui vous permet de chiffrer les e-mails. Cependant, l'en-tête du mail contiendra toujours l'adresse IP (adresse Internet) d'où le message a été envoyé en plus d'autres détails compromettants. Il convient de mentionner ici que l'utilisation de *GPG* avec un webmail n'es pas aussi pratique qu'avec un client local, comme *Thunderbird* ou *Outlook Express*.
+
+Séparation des comptes
+------------------
+
+A cause du confort apporté par des services tels que GMail, il est de plus en plus courant pour les gens d'avoir un seul compte e-mail. Ceci centralise considérablement les dégâts potentiels occasionnés par un compte piraté. Pire encore, rien n'empêche un employé peu scrupuleux de Google de supprimer ou voler votre e-mail, laissant Google lui-même se faire pirater. Les piratages arrivent.
+
+Une stratégie pratique consiste à conserver vos e-mails personnels, et bien, personnels. Si vous avez des e-mails professionnels, créez un nouveau compte si votre employeur ne l'a pas encore fait pour vous. Il en va de même pour n'importe quel club ou organisation dont vous êtes membre, chacun avec un mot de passe différent. Non seulement cela améliore la sécurité, en réduisant le risque d'un vol complet d'identité, mais réduit aussi grandement le risque de vous faire submerger par les spams dans vos comptes e-mail habituels.
+
+Une note à propos des e-mails hébergés
+-------------------------
+
+Ceux qui vous fournissent un service d'hébergement, d'envoi, de réception et de lecture d'e-mails ne s'encombrent pas de l'usage de TLS/SSL. En tant qu'hébergeurs, ils peuvent lire et stocker vos e-mails en texte clair. Ils peuvent obéir à des requêtes d'agences locales contre la violation des lois qui voudraient accéder aux e-mails. Ils peuvent aussi étudier vos mails à la recherche de motifs, mots-clés ou signes d'attachement ou de rejet de marques, idéologies ou partis politiques. Il est important de lire les CLUF (Contrat de Licence Utilisateur Final) de votre fournisseur de messagerie et d'effectuer quelques recherches de fond sur ses affiliations et intérêts avant de déterminer à quels types de mails il aura accès. Ces précautions s'appliquent aussi aux hébergeurs de vos destinataires.
