@@ -10,18 +10,18 @@ Les commentaires et les questions à propos du contenu du Handbook sont plus que
 Processus de validation par pair
 --------------------------------
 
-Le processus de validation par pair sur le contenu est déjà en place sur ce handbook, ainsi que dans les prochains ajouts, est toujours en cours de reflexion. Nous aimerions que tout le contenu soit éventuellement valider en accord avec les mise à jours sur les recherches en sécurité ainsi que leur *best-practices*.
+Le processus de validation par pair sur le contenu déjà en place sur ce handbook, ainsi que pour les prochains ajouts, est toujours en cours de reflexion. Nous aimerions que tout le contenu soit éventuellement validé en accord avec les dernières recherches en sécurité ainsi que leur *best-practices*.
 
 
 Publication
 -----------
 
-Le CryptoParty Handbook doit être - et paraître - professionel, donc il devrait être mise en page et publié de façon à être utilisé par un moteur de rendu typographique. Si vous avez des connaissances ou expérience avec la publication de livre et les polices de caractères, merci de faire connaître votre avis.
+Le CryptoParty Handbook doit être - et paraître - professionel, donc il devrait être mise en page et publié de façon à être utilisé par un moteur de rendu typographique. Si vous avez des connaissances ou de l'expérience avec la publication de livres et les polices de caractères, merci de faire connaître votre avis.
 
-License
+Licence
 -------
 
-Le contenu du CryptoParty Handbook est sous license [Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)](https://creativecommons.org/licenses/by-sa/3.0/).
+Le contenu du CryptoParty Handbook est sous licence [Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)](https://creativecommons.org/licenses/by-sa/3.0/).
 
 Tous les chapitres © les contributeurs à moins que cela soit indiqué différement.
 
