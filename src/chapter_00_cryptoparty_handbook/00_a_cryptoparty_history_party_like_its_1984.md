@@ -1,7 +1,7 @@
 A CryptoParty History: Party Like It's 1984
 ===========================================
 
-Parce que tout prend plus de sen quand quelqu'un vous promet qu'il y aura de la bière.
+Parce que tout prend plus de sens quand quelqu'un vous promet qu'il y aura de la bière.
 
 **Qu'est-ce qu'une CryptoParty?**
 
