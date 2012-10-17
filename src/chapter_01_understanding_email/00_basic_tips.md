@@ -1,7 +1,7 @@
-Astuces basiques
+Astuces de base
 ==========
 
-Tout comme avec d'autres formes de communication sur le web, vous devriez toujours prendre quelques précautions afin de vous assurer les meilleures chances de protéger votre vie privée
+Tout comme avec d'autres formes de communication sur le web, vous devriez toujours prendre quelques précautions afin de vous assurer les meilleures chances de protéger votre vie privée.
 
 En bref : 
 ---------
