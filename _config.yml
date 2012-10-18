@@ -1,2 +1,2 @@
-source: src/
+source: src
 exclude: [src/Makefile, src/convert_to_tex.sh, src/main.tex]
