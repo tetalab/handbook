@@ -1,21 +1,22 @@
-Types of Email
+Les types d'e-mail
 ==============
 
-The use of email almost always comes in two forms:
+L'utilisation de messagerie électronique se présente toujours sous 2 formes :
 
- * Email read, written and sent in the *browser* (webmail), or
+ * Les e-mails lus, écrits et envoyés via le *navigateur* (webmail), ou
 
- * Email read, written and sent using an *email program*, like Mozilla Thunderbird, Mail.App or Outlook Express.
+ * Les e-mails lus, écrits et envoyés via un *client mail*, comme Mozilla Thunderbird, Mail.app ou Outlook Express
 
-Remotely hosted email ('webmail'), resourced using a web browser
+
+E-mails hébergés à distance (webmail), accédés via un navigateur web.
 ----------------------------------------------------------------
 
-Email sent using the *browser*, sometimes referred to as *webmail*, typically assumes an account with a remote email host like Google (Gmail), Microsoft (Hotmail) or Yahoo (Yahoo Mail). The business opportunities opened up by hosting other people's email are many: contact with other services offered by the company, brand exposure and most importantly, mining your email for patterns that can be used to evaluate your interests – something of great value to the advertising industry (alongside certain Governments).
+Les services de messagerie accessible suniquement avec un *navigateur*, aussi appelés webmail, impliquent généralement un compte chez un fournisseur distant comme Google (GMail), Microsoft (Hotmail) ou Yahoo (Yahoo Mail). Les opportunités commerciales offertes par l'hébergement des mails de tiers sont multiples : synergie avec les autres services offerts par la compagnie, mise en valeur de la marque et, plus important, analyse de vos mails pour des signes utilisables pour évaluer vos interêts -- quelque chose d'une grande valeur pour l'industrie publicitaire (en plus de certains gouvernements).
 
-Remotely hosted email, resourced using an email program or using a web browser
+E-mails hébergés à distance, accédés via un client mail ou un navigateur
 ------------------------------------------------------------------------------
 
-Email sent using an email program like Outlook, Thunderbird, Mail.App aso. can also be used with a webmail service like Gmail or your company's email service. In either case, email may still be downloaded onto your computer but is retained on the email server (e.g. Gmail). Done this way, accessing email doesn't require the browser at all, but you are still using Gmail, Hotmail as a service. The difference between storing email on your computer with an email program and having it stored remotely on an email server (like Hotmail, Gmail or your University's service) on the Internet can appear confusing at first.
+L'utilisation d'un service mail avec un programme comme Outlook, Thunderbird, Mail.app peut aussi être réalisé avec un service de webmail comme GMail ou celui de votre entreprise. Dans chaque cas, les e-mails peuvent toujours être téléchargés sur votre ordinateur mais continuent d'exister sur le serveur mailEmail sent using an email program like Outlook, Thunderbird, Mail.App aso. can also be used with a webmail service like Gmail or your company's email service. In either case, email may still be downloaded onto your computer but is retained on the email server (e.g. Gmail). Done this way, accessing email doesn't require the browser at all, but you are still using Gmail, Hotmail as a service. The difference between storing email on your computer with an email program and having it stored remotely on an email server (like Hotmail, Gmail or your University's service) on the Internet can appear confusing at first.
 Email sent and received using an email program, not stored on the remote machine
 
 Finally, email can also be sent to an email server but not stored there at all, merely volleyed onto its' destination as soon as the email reaches the email forwarding server. Google and Microsoft do not allow for this sort of setup. Rather this is typically something your university or company will provide for you. Bear in mind that this comes with the risk of the email administrator on that system still secretly copying the email as it reaches and leaves the server.
