@@ -1,21 +1,20 @@
-Fears
+Craintes
 =====
+*Qui peut lire les mails que j'ai déjà reçus ou envoyés ?*
 
-*Who can read the email messages that I have already sent or received?*
+*Qui peut lire les mails que j'envoie lors de leur transit sur Internet ?*
 
-*Who can read the emails I send when they travel across the Internet?*
+*Est-ce que les personnes à qui j'envoie des mails peuvent les partager avec d'autres personnes ?*
 
-*Can the people I send emails to share them with anybody?*
+Les e-mails envoyés "en clair" sans aucun chiffrment (ce qui signifie la grande majorité des e-mails échangés aujourd'hui) peuvent être lus, journalisés et indexés par n'importe quel serveur ou routeur situé le long du trajet du message entre l'emetteur et le récepteur. Admettons que vous utilisiez une connexion chiffrée (voir le glossaire pour SSL/TLS) entre vos appareils et votre fournisseur de messagerie (ce que tout le monde devrait faire), cela signifie en pratique que les personnes suivantes peuvent encore lire n'importe quel message :
+ 
+ 1. Vous
+ 2. Votre fournisseur de messagerie
+ 3. Les opérateurs et propriétaires de n'importe quelle connexion réseau intermédiaire (souvent des conglomérats internationaux ambigüs ou des états souverains)
+ 4. Le fournisseur de messagerie du destinataire
+ 5. Le destinataire désigné
 
-Emails that are sent "in the clear" without any encryption (which means the vast majority of email sent and received today) can be read, logged, and indexed by any server or router along the path the message travels from sender to receiver. Assuming you use an encrypted connection (see glossary for TLS/SSL) between your devices and your email service provider (which everybody should), this means in practice that the following people can still read any given message:
-
- 1. You
- 2. Your email service provider
- 3. The operators and owners of any intermediate network connections (often ambiguous multinational conglomerates or even sovereign states)
- 4. The recipient's email service provider
- 5. The intended recipient
-
-Many webmail providers (like Gmail) automatically inspect all of the messages sent and received by their users for the purpose of showing targeted advertisements. While this may be a reasonable compromise for some users most of the time (free email!), it is disturbing for many that even their most private communications are inspected and indexed as part of a hidden and potentially very insightful profile maintained by a powerful corporate giant with a profit motive.
+De nombreux founisseurs de messagerie (comme GMail) inspectent tous les messages envoyés et reçus par leurs utilisateurs dans le but d'afficher de la publicité ciblée. Si cela peut être un compromis raisonnable pour la plupart des utilisateurs la majorité du temps (messagerie gratuite !), il est dérangeant pour beaucoup que même la plus privée de leur communication soit inspectée et indexée comme un morceau d'un profil caché et potentiellement très intrusif maintenu par un géant commercial tout-puissant avec un dessein lucratif.
 
 Additionally, somebody who can legally pressure the groups above could request or demand:
 
