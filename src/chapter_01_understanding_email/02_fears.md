@@ -16,11 +16,12 @@ Les e-mails envoyés "en clair" sans aucun chiffrment (ce qui signifie la grande
 
 De nombreux founisseurs de messagerie (comme GMail) inspectent tous les messages envoyés et reçus par leurs utilisateurs dans le but d'afficher de la publicité ciblée. Si cela peut être un compromis raisonnable pour la plupart des utilisateurs la majorité du temps (messagerie gratuite !), il est dérangeant pour beaucoup que même la plus privée de leur communication soit inspectée et indexée comme un morceau d'un profil caché et potentiellement très intrusif maintenu par un géant commercial tout-puissant avec un dessein lucratif.
 
+De plus, quelqu'un pouvant légalement faire pression sur les groupes ci-dessus pourrait requérir ou demander :
 Additionally, somebody who can legally pressure the groups above could request or demand:
 
- 1. logged meta-data about email (lists of messages sent or received by any user, subject lines, recipients), in some jurisdictions even without a warrant.
- 2. messages sent and received by a specific user or group, with a warrant or court order in some jurisdictions.
- 3. a dedicated connection to siphon off *all* messages and traffic, to be analyzed and indexed off site.
+ 1. des méta-données journalisées sur les e-mails (listes des messages envoyés ou reçus par un utilisateur, sujets, destinataires) dans certaines juridictions même sans mandat.
+ 2. les messages envoyés et reçus par un utilisateur ou un groupe spécifiques, avec un mandat ou un ordre du tribunal dans certaines juridictions.
+ 3. une connexion dédiée pour siphonner *tous* le trafic et les messages afin de les analyser hors-site.
 
 In cases where a user has a business or service relationship with their email provider, most governments will defend the privacy rights of the user against unauthorized and unwarranted reading or sharing of messages, though often it is the government itself seeking information, and frequently users agree to waive some of these rights as part of their service agreement. However, when the email provider is the user's employer or academic institution, privacy rights frequently do not apply. Depending on jurisdiction, businesses generally have the legal right to read all of the messages sent and received by their employees, even personal messages sent after hours or on vacation. 
 
