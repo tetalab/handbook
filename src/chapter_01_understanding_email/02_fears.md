@@ -1,31 +1,31 @@
-Fears
+Craintes
 =====
+*Qui peut lire les mails que j'ai déjà reçus ou envoyés ?*
 
-*Who can read the email messages that I have already sent or received?*
+*Qui peut lire les mails que j'envoie lors de leur transit sur Internet ?*
 
-*Who can read the emails I send when they travel across the Internet?*
+*Est-ce que les personnes à qui j'envoie des mails peuvent les partager avec d'autres personnes ?*
 
-*Can the people I send emails to share them with anybody?*
+Les e-mails envoyés "en clair" sans aucun chiffrment (ce qui signifie la grande majorité des e-mails échangés aujourd'hui) peuvent être lus, journalisés et indexés par n'importe quel serveur ou routeur situé le long du trajet du message entre l'emetteur et le récepteur. Admettons que vous utilisiez une connexion chiffrée (voir le glossaire pour SSL/TLS) entre vos appareils et votre fournisseur de messagerie (ce que tout le monde devrait faire), cela signifie en pratique que les personnes suivantes peuvent encore lire n'importe quel message :
+ 
+ 1. Vous
+ 2. Votre fournisseur de messagerie
+ 3. Les opérateurs et propriétaires de n'importe quelle connexion réseau intermédiaire (souvent des conglomérats internationaux ambigüs ou des états souverains)
+ 4. Le fournisseur de messagerie du destinataire
+ 5. Le destinataire désigné
 
-Emails that are sent "in the clear" without any encryption (which means the vast majority of email sent and received today) can be read, logged, and indexed by any server or router along the path the message travels from sender to receiver. Assuming you use an encrypted connection (see glossary for TLS/SSL) between your devices and your email service provider (which everybody should), this means in practice that the following people can still read any given message:
+De nombreux founisseurs de messagerie (comme GMail) inspectent tous les messages envoyés et reçus par leurs utilisateurs dans le but d'afficher de la publicité ciblée. Si cela peut être un compromis raisonnable pour la plupart des utilisateurs la majorité du temps (messagerie gratuite !), il est dérangeant pour beaucoup que même la plus privée de leur communication soit inspectée et indexée comme un morceau d'un profil caché et potentiellement très intrusif maintenu par un géant commercial tout-puissant avec un dessein lucratif.
 
- 1. You
- 2. Your email service provider
- 3. The operators and owners of any intermediate network connections (often ambiguous multinational conglomerates or even sovereign states)
- 4. The recipient's email service provider
- 5. The intended recipient
-
-Many webmail providers (like Gmail) automatically inspect all of the messages sent and received by their users for the purpose of showing targeted advertisements. While this may be a reasonable compromise for some users most of the time (free email!), it is disturbing for many that even their most private communications are inspected and indexed as part of a hidden and potentially very insightful profile maintained by a powerful corporate giant with a profit motive.
-
+De plus, quelqu'un pouvant légalement faire pression sur les groupes ci-dessus pourrait requérir ou demander :
 Additionally, somebody who can legally pressure the groups above could request or demand:
 
- 1. logged meta-data about email (lists of messages sent or received by any user, subject lines, recipients), in some jurisdictions even without a warrant.
- 2. messages sent and received by a specific user or group, with a warrant or court order in some jurisdictions.
- 3. a dedicated connection to siphon off *all* messages and traffic, to be analyzed and indexed off site.
+ 1. des méta-données journalisées sur les e-mails (listes des messages envoyés ou reçus par un utilisateur, sujets, destinataires) dans certaines juridictions même sans mandat.
+ 2. les messages envoyés et reçus par un utilisateur ou un groupe spécifiques, avec un mandat ou un ordre du tribunal dans certaines juridictions.
+ 3. une connexion dédiée pour siphonner *tous* le trafic et les messages afin de les analyser hors-site.
 
-In cases where a user has a business or service relationship with their email provider, most governments will defend the privacy rights of the user against unauthorized and unwarranted reading or sharing of messages, though often it is the government itself seeking information, and frequently users agree to waive some of these rights as part of their service agreement. However, when the email provider is the user's employer or academic institution, privacy rights frequently do not apply. Depending on jurisdiction, businesses generally have the legal right to read all of the messages sent and received by their employees, even personal messages sent after hours or on vacation. 
+Dans le cas où un utilisateur a une relation professionnelle ou de service avec son fournisseur d'e-mails, la plupart des gouvernements défendront les droits de la vie privée de l'utilisateur contre la lecture et le partage non-autorisé de messages, bien que ce soit souvent le gouvernement lui-même qui recherche des informations, et que les usagers acceptent fréquemment de renoncer à certains droits dans leur contrat de service. Cependant, quand le fournisseur de messagerie est l'employeur de l'usager ou une institution académique, les droits à la vie privée ne s'appliquent pas. Enfonction de la juridiction, les entreprises ont généralement légalement le droit de lire tous les messages envoyés et reçus par leurs employés, même les messages personnels envoyés en dehors de sheures de travail ou durant les congés. 
 
-Historically, it was possible to "get away" with using clear text email because the cost and effort to store and index the growing volume of messages was too high: it was hard enough just to get messages delivered reliably. This is why many email systems do not contain mechanisms to preserve the privacy of their contents. Now the cost of monitoring has dropped much faster than the growth of internet traffic and large-scale monitoring and indexing of all messages (either on the sender or receiving side) is reasonable to expect even for the most innocuous messages and users. [CITE:corporate email archiving/spying, blue coat, Syrian monitoring, USA Utah data center, USA intercept scandals]
+Histriquement, il était possible de s'en sortir avec des messages envoyés en texte clair parce que le cout de stockage et d'indexation du volume grandissant de mails était trop élevé : il était déjà copliqué d'acheminer les e-mails de façon fiable. Voici pourquoi beaucoup de systèmes de messagerie ne contiennent pas de mécanismes pour préserver la confidentialité de leur contenu. Maintenant que le coût de monitoring a chuté plus rapidement que la croissance du trafic Internet on peut envisager un monitoring à grande échelle et l'indexation de tous les messages (tant du côté émetteur que récepteur) même pour les utilisateurs et messages les plus anodins.[CITE:corporate email archiving/spying, blue coat, Syrian monitoring, USA Utah data center, USA intercept scandals]
 
 For more about legal protections of email messages "at rest" (technical term for messages stored on a server after having been delivered), especially regarding government access to your email messages, see:
 
